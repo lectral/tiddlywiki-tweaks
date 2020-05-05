@@ -1,0 +1,43 @@
+body.tc-body {
+	background: white;
+}
+.tc-tiddler-frame {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; 
+  border-left: 2px solid red;
+}
+.columns {
+  column-width: 10em;
+  column-gap: 1em;
+  column-rule: 1px solid #ccc;
+}
+.columns ul {margin-block-start:0; 
+}
+.column-item {  /* For "blocks" such as categories of lists */
+  padding-bottom:1em;
+  white-space: nowrap; 
+}
+.column-item-heading {
+  font-size:1.3rem;
+  background:lightgray;
+  margin-bottom:5px;
+}
+/*
+.column-item:first-of-type {
+   margin-top:-2.2em;
+}
+*/
+.column-item-item {  /* E.g for list of titles in the item */
+  background:white;
+  white-space: nowrap; 
+  overflow:hidden;
+}
+.column-item-item:hover {
+  overflow:visible;
+}
+.column-item-item-heading {
+  text-transform: uppercase;
+  font-size:.8rem;
+  margin-bottom:-3px;
+}
